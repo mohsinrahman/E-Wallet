@@ -1,0 +1,26 @@
+@import '../../styles/_mixins.scss';
+@import '../../styles/_variables.scss';
+
+.card1{
+    margin-top: 40px;
+    background:$VendorNinjaBlack;
+    color: #ffffff;
+    z-index:1000;
+    
+   
+}
+.card2{
+    background:$VendorBlockChainPurple;
+    color: #ffffff;
+   margin-top: -180px;
+   position: relative;
+   margin-left: -16px;
+}
+.card3{
+    background:$VendorEvilCorpRed;
+    color: #ffffff;
+   margin-top: -180px;
+   z-index:1000;
+   position: relative;
+   margin-left: -16px;
+}

@@ -1,0 +1,46 @@
+  {
+    "Cards":[
+    {
+    "cardID": 1,
+    "card": "vendor-bitcoin",
+    "cardNumber": "999 1221 2311 0011",
+    "cardHolder": "Christofer Nils",
+    "dateExpiry": "12 / 24",
+    "ccv": 432,
+    "cardActive": 0
+},{
+    "cardID": 2,
+    "card": "vendor-evil",
+    "cardNumber": "5555 0011 1111 8881",
+    "cardHolder": "Christofer Nils",
+    "dateExpiry": "11 / 24",
+    "ccv": 432,
+    "cardActive": 0
+},
+{
+    "cardID": 3,
+    "card": "vendor-ninja",
+    "cardNumber": "0188 1111 1661 4441",
+    "cardHolder": "Christofer Nils",
+    "dateExpiry": "12 / 23",
+    "ccv": 432,
+    "cardActive": 0
+},
+{
+    "cardID": 4,
+    "card": "vendor-blockchain",
+    "cardNumber": "1001 1111 1881 9111",
+    "cardHolder": "Christofer Nils",
+    "dateExpiry": "01 / 23",
+    "ccv": 432,
+    "cardActive": 1
+}
+],
+"Button":[
+    {"button1": "Add A NEW CARD"},
+    {"button2": "Add CARD"}
+]
+  }
+
+ 
+ 
