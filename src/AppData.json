@@ -3,19 +3,21 @@
     {
     "cardID": 1,
     "card": "vendor-bitcoin",
-    "cardNumber": "999 1221 2311 0011",
+    "cardNumber": "9999 1221 2311 0011",
     "cardHolder": "Christofer Nils",
     "dateExpiry": "12 / 24",
     "ccv": 432,
-    "cardActive": 0
+    "cardActive": 0,
+    "cardColor": "#FFAE34"
 },{
     "cardID": 2,
     "card": "vendor-evil",
     "cardNumber": "5555 0011 1111 8881",
     "cardHolder": "Christofer Nils",
     "dateExpiry": "11 / 24",
-    "ccv": 432,
-    "cardActive": 0
+    "ccv": 902,
+    "cardActive": 0,
+    "cardColor": "#F33355"
 },
 {
     "cardID": 3,
@@ -23,8 +25,9 @@
     "cardNumber": "0188 1111 1661 4441",
     "cardHolder": "Christofer Nils",
     "dateExpiry": "12 / 23",
-    "ccv": 432,
-    "cardActive": 0
+    "ccv": 221,
+    "cardActive": 1,
+    "cardColor": "#222222"
 },
 {
     "cardID": 4,
@@ -33,12 +36,24 @@
     "cardHolder": "Christofer Nils",
     "dateExpiry": "01 / 23",
     "ccv": 432,
-    "cardActive": 1
+    "cardActive": 0,
+    "cardColor": "#8B58F9"
 }
 ],
 "Button":[
     {"button1": "Add A NEW CARD"},
     {"button2": "Add CARD"}
+],
+"Top":[
+    {"TopHome": {
+        "Title": "E-Wallet",
+        "Status": "Card Active"
+    }},
+    {"TopAddCard": 
+    {
+        "Title": "Add A New Bank Card",
+        "Status": "New Card"
+    }}
 ]
   }
 

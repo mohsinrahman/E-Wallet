@@ -24,3 +24,11 @@
    position: relative;
    margin-left: -16px;
 }
+
+
+
+.cardStack:nth-child(2) {
+    grid-row: 2 / 4;
+    margin-top:-150px;
+    z-index: 1;
+  }

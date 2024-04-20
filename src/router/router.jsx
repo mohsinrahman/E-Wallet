@@ -5,7 +5,6 @@ import AddCard from '../pages/AddCard';
 import Vendors from '../pages/Vendors';
 import AppData from '../AppData.json';
 
-console.log(AppData)
 
 function fetchData(){
  // return fetch(JSON.parse(JSON.stringify(AppData)))
@@ -31,7 +30,8 @@ const router = createBrowserRouter([
     },
     {
         path: '/addcard',
-        element: <AddCard />
+        element: <AddCard />,
+        loader : fetchData
     }
     ,
     {

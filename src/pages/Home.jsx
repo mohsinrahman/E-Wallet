@@ -3,25 +3,40 @@ import Card from "./components/Card";
 import CardStack from "./components/CardStack";
 import './Home.scss';
 import {useLoaderData} from 'react-router-dom';
-import { useDispatch } from 'react-redux'
-import { change } from './../reducers/changeReducer'
-
+import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 function Home() {
-    const dispatch = useDispatch();
 
-  function handleClick() {
-    dispatch(change({cardNumber:"3333 3333 3333 3333"}));
-  }
+ 
 
-    const  AppData= useLoaderData();
-   console.log(AppData.Cards);
+
+    const change = useSelector((state) => { return state.change })
+
+
+  //console.log(change.Top[0].TopHome)
+
+
+   /*  const  AppData= useLoaderData();
+    console.log(AppData.Cards) */
+   /*  window.localStorage.setItem("App Data", JSON.stringify(change.Cards));
+    let newObject = window.localStorage.getItem("App Data");
+        let Data = JSON.parse(newObject);
+        console.log(Data) */
+   //console.log(AppData.Top[0].TopHome);
+    console.log(change.Cards)
     return (
     <>
-    <Top/>
-    <Card />
-    <CardStack cardData = {AppData.Cards}/>
-    <button className="addCard" onClick={ handleClick }>ADD A NEW CARD</button>
+    <Top />
+    <Card cardData = {change.Cards}/>
+    <div className="cardStackGrid">
+      <CardStack cardData = {change.Cards}/>
+    </div>
+    
+   {/* <button className="addCard" >ADD A NEW CARD</button> */} 
+    <Link to="/addcard">
+    <button className="addCard" >ADD A NEW CARD</button> 
+      </Link>
     </>
     
     )

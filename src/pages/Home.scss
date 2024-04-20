@@ -10,3 +10,12 @@ border: 1px solid #000000;
 margin-top: 40px;
 
 }
+
+.cardStackGrid{
+
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(1);
+
+    
+}
