@@ -4,10 +4,6 @@
 
 .selected-card {
     @include flexColumn;
+    margin-bottom: 50px;
 
-    &__remove-card {
-        margin-bottom: $margin-l;
-        @include button;
-        background-color: $bg-color-light;
-    }
 }

@@ -34,7 +34,7 @@ function Home() {
                 <h1 className='home__title'>E-WALLET</h1>
                 <p className='home__description'>Active Card</p>
                <Top/>
-
+                
                 <CardStack card={cards} />
             </div>
             <div className="home__container">
