@@ -1,21 +1,21 @@
-@import '../styles/_mixins.scss';
+@import '../styles/mixins.scss';
 @import '../styles/_variables.scss';
 
-.addCard{
-    width: 382px;
-height: 80px;
-left: 16px;
-border-radius: 8px;
-border: 1px solid #000000;
-margin-top: 40px;
 
-}
+.home {
+    @include flexColumn;
+    display: flex;
 
-.cardStackGrid{
+    &__container {
 
-    display: grid;
-    place-content: center;
-    grid-template-columns: repeat(1);
+        @include flexColumn;
+        margin-bottom: $margin-l;
+    }
 
-    
+    &__button {
+        @include button;
+        background-color: $bg-color-light;
+        z-index: 1;
+        margin-top: 12rem;
+    }
 }
