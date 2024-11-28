@@ -43,9 +43,14 @@
 
 .addBtn {
     @include button;
-    width: 50%;
-    color: $font-color-light;
+    width: 150px;
+    color: #ffffff;
     margin-bottom: $margin-m;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    padding:  20px;
+    background-color: #000000;
 }
 
 .card-section {
@@ -75,12 +80,14 @@
 }
 
 .vendor-select {
-    border-radius: 8px;
+    border-radius: 10px;
     border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
+    padding-top: 12px;
+    padding-right: 12px;
+    font-size: 16px;
     font-family: inherit;
-    transition: border-color 0.25s;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    margin-left: 10px;
 
 }

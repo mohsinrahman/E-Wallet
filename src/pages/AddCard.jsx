@@ -9,7 +9,7 @@ function AddCard() {
     return (
         <div className='addcard'>
             
-            <h1>AddCard</h1>
+            <h1>ADD CARD</h1>
 
             <CardForm />
      
